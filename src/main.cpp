@@ -5,10 +5,8 @@
 #include <Adafruit_Sensor.h>
 
 // ====== WiFi Credentials ======
-//const char *WIFI_SSID = "Hema-2.4G";
-//const char *WIFI_PASS = "Hema_24527";
-const char *WIFI_SSID = "God father";  //Hotspot name
-const char *WIFI_PASS = "vekama ille?";  //Hotspot password
+const char *WIFI_SSID = "";  //Write your WIFI SSID here
+const char *WIFI_PASS = "";  //Write your WIFI Password here
 
 // -- Pin Definitions --
 #define LDR_PIN 34
