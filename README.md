@@ -5,14 +5,14 @@ An IoT-based safety system built on the ESP32 to monitor helmet conditions in re
 ## 🚀 Features
 - **Automatic Light Control**: LDR-based headlamp that switches on/off based on ambient light, along with manual override.
 - **Sound Detection**: Microphone sensor triggers vibration feedback when loud noises are detected.
-- **Impact & Fall Detection**: LIS3DH accelerometer monitors sudden impacts and falls, with counter.
+- **Impact & Fall Detection**: SW420 Vibration sensor monitors sudden impacts and falls, with counter.
 - **Manual Overrides**: Physical buttons allow light and vibration reset overrides.
 - **Web Dashboard**: Real-time monitoring of sensor states and events via ESP32’s built-in web server.
 
 ## 🛠️ Technologies Used
 - IoT + C++ (Arduino framework)
 - ESP32 Microcontroller  
-- LIS3DH Accelerometer  
+- SW420 Vibration sensor  
 - MAX4466 Microphone sensor  
 - LDR
 - Web server (ESP32 Wifi)
@@ -35,7 +35,6 @@ git clone https://github.com/yourusername/ESP32-AeroGuard-Helmet-Monitoring-Syst
 ## 📌 Future Improvements
 - Long-range connectivity with MQTT/Cloud integration.
 - Mobile app for remote monitoring  
-- LIS3DH Accelerometer  
 - Improved helmet design with proper mounting and protection.  
 - Integration of camera for visual defect detection
 - Use higher-quality microphone sensor to reduce voltage noise and improve reliability.
